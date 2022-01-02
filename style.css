@@ -1,0 +1,96 @@
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.navBody {
+    background-image: linear-gradient(180deg, rgb(9, 9, 31), rgb(36, 32, 32));
+}
+
+
+.nav-max-width {
+    max-width: 95%;
+    margin: auto;
+}
+
+.nav-logo-and-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+.burger-container {
+    border: 2px solid white;
+    padding: 10px;
+} 
+
+
+.burger-top {
+    width: 53px;
+    height: 3px;
+    background: white;
+    display: block;
+    /* transform: rotate(135deg) translateY(-15px); */
+    transition: transform .25s;
+}
+
+.burger-mid {
+    width: 53px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin-top: 10px;
+    transition: .25s;
+}
+
+.burger-down {
+    width: 53px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin-top: 10px;
+    transition: .25s;
+    /* transform: rotate(45deg) translateY(-15px); */
+}
+
+/* nav {
+    max-height: 0;
+} */
+
+ul {
+    height: 360px;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(45, 45, 51);
+    transition: .25s;
+    overflow: hidden;
+}
+
+.overflow-hidden {
+    height: 0px;
+    overflow: hidden;
+}
+
+/* ul:hover {
+    height: 360px;
+} */
+li {
+    color: white;
+    list-style-type: none;
+    padding: 20px 20px;
+    font-size: 26px;
+    cursor: pointer;
+    border-top: 1px solid rgb(161, 146, 146);
+}
+
+li:hover {
+    color: black;
+    background: rgb(179, 173, 173);
+    transition: .25s;
+}
+
